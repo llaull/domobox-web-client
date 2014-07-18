@@ -1,0 +1,246 @@
+@import "fonts.css";
+@import "normalize.css";
+@import "style.css";
+
+body{
+	background-color:#E8F0F0;
+	margin:0;
+	color:#333333;
+	
+}
+/**                                           logo du header **/
+header.site-header{	
+	background-color:#222222;
+	display:block;
+	min-height:80px;	
+}
+/**                                           logo du header **/
+header .site-nom a {
+	display:block;
+	height:70px;
+	width:163px;
+	text-decoration:none;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-position:center;
+	text-indent:-9999px;
+	overflow:hidden;
+	float:left;
+	margin-top:4px;
+	margin-right:20px;
+}
+
+.nav-header{list-style-type:none;}
+/**                                           menu du header **/
+.nav-header ul { text-align:center; width:auto; }
+.nav-header li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;		
+}
+
+.nav-header li a {
+	float:left;
+	margin-top:20px;
+	height:28px;
+	padding:9px 15px 0;
+	text-decoration:none;
+	color:white;
+	text-shadow: 0px 0px 4px rgba(129, 193, 246, 0.75);
+	color: #FFFFFF;   
+	font-family: 'AbsaraSans-Light', sans-serif;
+
+}
+.nav-header li a:hover {text-shadow: none; color:white;}
+/**                                            menu mobile **/
+#mobile-nav .icon-menu{
+	display:block;
+	height:54px;
+	width:54px;
+	text-decoration:none;
+	background-image:url(../images/mobile-nav-g.jpg);
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-position:center;
+	text-indent:-9999px;
+	float:right;
+}
+
+/**                                            menu mobile **/
+.menu-mobile{  width:100%; clear:both;}
+.menu-mobile ul {
+	text-align:center; 
+	width:auto;
+	margin:0;
+	padding:0;
+}
+.menu-mobile li {
+	display:block;
+	margin:0;
+	padding:0;
+	height:28px;
+	width:100%;
+}
+.menu-mobile li a {
+	padding:9px 15px 0;
+	text-decoration:none;
+	color: white;  
+	font-family: 'AbsaraSans-Light', sans-serif;
+}
+/**                                                     la maison **/
+iframe[seamless]{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+	width:0px;
+	height:0px;
+	}
+ul#la-maison {list-style-type:none;margin:0; padding:0; width:auto; }
+ul#la-maison li.emplacement {display:block;}
+ul#la-maison p {display:block; clear:both;}
+ul#la-maison p.titre { margin:0; padding:0;}
+
+ul#la-maison h2 { clear:both;
+
+}
+.degrade-sympa{
+background: #1e5799; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-8 */
+}
+ul#la-maison p.titre span{ margin:5px; font-family:AbsaraSans-Bold; font-size:small; color:white;}
+/**                                                     la maison menu droite**/
+ul#menuDroite{list-style-type:none;margin:0; padding:0;list-style-type:none;margin:0; padding:0;list-style-type:none;margin:0; padding:0;border: 1px solid black; width: 200px; float: left;}
+/**                                                     configuration **/
+ul#modules {list-style-type:none;margin:0; padding:0; width:auto; float: left;border:1px solid black;}
+ul#modules p { margin:0; font-size:small; color:#CCC; margin-top:2px;}
+ul#modules li { margin:4px; display:block; border:1px solid #434142; width:160px; height:140px;float:left;}
+ul#modules li div.titre{color:#CCC; border-bottom:1px solid black; height:15px; font-size:x-small; padding-left:5px;}
+ul#modules input[type=text] { border:1px solid black; margin-top:8px; margin-left:5px; width:130px; height:10px; color:white; font-size:x-small; background-color:#333;}
+ul#modules p span.deconnecte{ color:red;}
+ul#modules p span.connecte{ color:green;}
+
+ul#modules a.submit{
+	background: none repeat scroll 0 0 #2782cf;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	border-style: solid;
+	width:50px;
+	font-size:12px;
+	text-decoration:none;
+	padding:2px 0px 0px 2px;
+	margin:0px;
+	display:block;
+	border-width: 1px;
+}
+
+.left_label	{display:inline-block; width:80px; margin-right: 3px; text-align: left; margin-left:3px; }
+.right_label{display:inline-block; text-align: left;color:#09F;}
+
+ul#modules li div.titre a { float:right; margin:1px 1px 0px 0px}
+i { font-size:10px; color:white;}
+
+.modules_fond {
+	background: #1e1e1e url("../images/gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(#444e4d),
+		to(#1e1e1e)
+	);
+	background: -webkit-linear-gradient(
+		top,
+		#444e4d,
+		#1e1e1e
+	);
+	background: -moz-linear-gradient(
+		top,
+		#444e4d,
+		#1e1e1e
+	);
+	background: -o-linear-gradient(
+		top,
+		#444e4d,
+		#1e1e1e
+	);
+	background: linear-gradient(
+		top,
+		#444e4d,
+		#1e1e1e
+	);
+}
+/*ul#modules li.RubanRGB {width: 260px;}*/
+.temperature p {background: url("./png/hot-159386_150.png"); background-position:20px 8px; }
+.humidite p {background: url("./png/water-drops-155735_150.png"); background-position:10px 40px;}
+.PIR_sensor p {	text-indent:-9999px; background: url("./png/2gig-Wireless-Motion-Detector.png"); background-position:center;}
+.PIR_actived p {text-indent:-9999px; background: url("./png/2gig-Wireless-Motion-Detector-actived.png"); background-position:center;}
+.matrixR8 p {text-indent:-9999px;background: url("./png/8x8_running.png"); background-position:center;background-repeat:no-repeat;height:80px; padding-top:13px;}
+.lux p {background: url("./png/yellow-35870_640.png"); background-position:20px 8px; }
+.altimetre p {background: url("./png/mountain-146215_150.png"); background-position:10px 34px; }
+/*.RubanRGB p {text-indent:-9999px;  }
+.RubanRGB div#picker {	padding-left:15px; }
+*/
+
+.DHT11 p, .DHT22 p, .PIR_sensor p, .PIR_actived p, .lux p, .BMP p {
+	display:inline-block;	 
+	padding-top:40px; 
+	padding-right:15px;	
+	background-repeat:no-repeat;		
+	height:80px;
+	font-size:28px;text-align:right;}
+.DHT11 p span, .DHT22 p span, .BMP p span, .lux p span{ font-size:22px;}
+/**                                                     footer **/
+footer{
+	text-align:right;
+	margin-right:20px;
+	font-family: 'AbsaraSans-Light', sans-serif;
+	font-size:12px;
+}
+
+footer .copyright{}
+footer .menu-footer a{
+	text-decoration:none;
+	border-bottom: 1px dotted #AAAAAA;
+	color:#222222;
+	}
+footer .menu-footer a:hover{color:black;}
+
+/**                                            menu footer **/
+
+/**                                           **/
+@media only screen and (max-width: 940px) {
+	header.site-header{}
+	header .site-nom a {  float:none; margin:0 auto; padding-top:5px;}
+	.nav-header ul {clear: both; float:none;}
+	.nav-header li { display: inline-block; float: none; }
+	.nav-header li a { margin-top:0px;}
+
+	
+}
+@media only screen and (max-width: 480px) {
+
+	header.site-header{	min-height:54px;}
+	header .site-nom a {
+		float:left;
+		height:48px;
+		width:112px;
+		background-image:url(../images/logo-mobile.png);
+	}
+	footer{	text-align:center;}
+}
