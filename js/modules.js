@@ -19,12 +19,12 @@ $(document).ready(function() {
 
                 if (instantane != null) {
 
-                    for (var i = 0; i < data.length; i++) {
+                    for (var i = 0; i < data.length; i++ || data.length != instantane.length) {
 
                         if (data[i].sonde_valeur != instantane[i].sonde_valeur) {
 
                             //met a jour l'element qui en a bessoin
-                            if (data[i].sonde_valeur < instantane[i].sonde_valeur || data.length != instantane.length) {
+                            if (data[i].sonde_valeur < instantane[i].sonde_valeur) {
                                 console.log(data[i].sonde_valeur + " dans " + data[i].module_id);
                             }
 
@@ -244,7 +244,7 @@ $(document).ready(function() {
 
 
                             //masque les elements
-                            if ($.cookie(tableauLieu[i]) == "false" || $.cookie(element[j].nom_lien) == "false") {
+                            if ($.cookie(tableauLieu[i]) == "false" || $.cookie(element[j].nom_lien) == "false" || $.cookie(element[j].nom_sensor) == "false") {
                                 $("#" + codeBaliseModule(j, element, 1)).hide();
                             }
 
