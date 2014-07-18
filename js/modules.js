@@ -141,6 +141,23 @@ $(document).ready(function() {
         return out;
     }
 
+    function rubanRGB() {
+        var $box = $('.TinyColorConteneur');
+        var box = $box.tinycolorpicker();
+
+        $box.bind("change", function() {
+
+            var selectedValue = $(this).find(".colorInput").val();
+
+            var moduleID = $(this).find(".moduleID").val();
+
+            console.log(" >: " + selectedValue + " & " + moduleID);
+            //$("body").append('<iframe allowtransparency="true" scrolling="no" id="frame" name="frame" src="http://stockage.llovem.eu:8227/?module=' +
+            // moduleID + '&action='+selectedValue+'" seamless ></iframe>');
+        });
+
+    }
+
     //gestion des elements
     var creatHTML = function(index, element) {
 
@@ -228,19 +245,20 @@ $(document).ready(function() {
                             $('#modules').append(module);
 
                             //Active le colorPicker
-                            var $box = $('.TinyColorConteneur');
-                            var box = $box.tinycolorpicker();
+                            rubanRGB();
+                            // var $box = $('.TinyColorConteneur');
+                            // var box = $box.tinycolorpicker();
 
-                            $box.bind("change", function() {
+                            // $box.bind("change", function() {
 
-                                var selectedValue = $(this).find(".colorInput").val();
+                            //     var selectedValue = $(this).find(".colorInput").val();
 
-                                var moduleID = $(this).find(".moduleID").val();
+                            //     var moduleID = $(this).find(".moduleID").val();
 
-                                console.log(" >: " + selectedValue + " & " + moduleID);
-                                //$("body").append('<iframe allowtransparency="true" scrolling="no" id="frame" name="frame" src="http://stockage.llovem.eu:8227/?module=' +
-                                // moduleID + '&action='+selectedValue+'" seamless ></iframe>');
-                            });
+                            //     console.log(" >: " + selectedValue + " & " + moduleID);
+                            //     //$("body").append('<iframe allowtransparency="true" scrolling="no" id="frame" name="frame" src="http://stockage.llovem.eu:8227/?module=' +
+                            //     // moduleID + '&action='+selectedValue+'" seamless ></iframe>');
+                            // });
 
 
                             //masque les elements
